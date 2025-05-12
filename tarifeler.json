@@ -1,151 +1,114 @@
-{
-  "tarih": "05.04.2025",
-  "kaynak": "EPDK Tarifelerinden Onaylanan ve 5 Nisan 2025 Tarihinden İtibaren Uygulanacak Faaliyet Bazlı Tarife Tabloları",
-  "abone_gruplari": [
-    {
-      "ad": "Tüketici",
-      "tarife_cesitleri": [
-        {
-          "ad": "Tek Zamanlı",
-          "birim_fiyatlar": {
-            "perakende_enerji_bedeli": 3.12492,
-            "dagitim_bedeli": 0.00000
-          }
-        },
-        {
-          "ad": "Çok Zamanlı",
-          "birim_fiyatlar": {
-            "gunduz": 3.12492,
-            "puant": 3.164941,
-            "gece": 1.62084
-          }
-        }
-      ]
-    },
-    {
-      "ad": "Dağıtım Sistemi Kullanıcıları",
-      "alt_gruplar": [
-        {
-          "ad": "Sanayi",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 2.85745,
-                "dagitim_bedeli": 1.0595
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 3.668045,
-                "puant": 3.710542,
-                "gece": 2.07083
-              }
-            }
-          ]
-        },
-        {
-          "ad": "Kamu ve Özel Hizmetler Sektörü ile Diğer",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 3.33557,
-                "dagitim_bedeli": 1.26293
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 4.59863,
-                "puant": 4.640548,
-                "gece": 2.74074
-              }
-            }
-          ]
-        },
-        {
-          "ad": "Mesken (8 kWh/gün altı)",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 1.80752,
-                "dagitim_bedeli": 0.790301
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 3.057038,
-                "puant": 3.100892,
-                "gece": 1.823592
-              }
-            }
-          ]
-        },
-        {
-          "ad": "Mesken (8 kWh/gün üstü)",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 2.07761,
-                "dagitim_bedeli": 0.790301
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 3.1178,
-                "puant": 3.147036,
-                "gece": 1.830718
-              }
-            }
-          ]
-        },
-        {
-          "ad": "Tarımsal Faaliyetler",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 3.39375,
-                "dagitim_bedeli": 1.212485
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 4.60986,
-                "puant": 4.60986,
-                "gece": 1.830718
-              }
-            }
-          ]
-        },
-        {
-          "ad": "Aydınlatma",
-          "tarife_cesitleri": [
-            {
-              "ad": "Tek Terimli",
-              "birim_fiyatlar": {
-                "perakende_enerji_bedeli": 3.376867,
-                "dagitim_bedeli": 1.512482
-              }
-            },
-            {
-              "ad": "Çok Terimli",
-              "birim_fiyatlar": {
-                "gunduz": 4.88934,
-                "puant": 4.88934,
-                "gece": 4.88934
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "tuketici-tek-zamanli",
+    "name": "Tek Zamanlı",
+    "type": "Tüketici",
+    "energyRate": 3.12492,
+    "distributionRate": 0.0
+  },
+  {
+    "id": "tuketici-cok-zamanli",
+    "name": "Çok Zamanlı",
+    "type": "Tüketici",
+    "energyRate": 3.12492,
+    "distributionRate": 0.0,
+    "peakRate": 3.164941,
+    "nightRate": 1.62084
+  },
+  {
+    "id": "sanayi-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Sanayi",
+    "energyRate": 2.85745,
+    "distributionRate": 1.0595
+  },
+  {
+    "id": "sanayi-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Sanayi",
+    "energyRate": 3.668045,
+    "distributionRate": 1.0595,
+    "peakRate": 3.710542,
+    "nightRate": 2.07083
+  },
+  {
+    "id": "kamu-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Kamu ve Özel Hizmetler",
+    "energyRate": 3.33557,
+    "distributionRate": 1.26293
+  },
+  {
+    "id": "kamu-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Kamu ve Özel Hizmetler",
+    "energyRate": 4.59863,
+    "distributionRate": 1.26293,
+    "peakRate": 4.640548,
+    "nightRate": 2.74074
+  },
+  {
+    "id": "mesken-alt-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Mesken (8 kWh/gün altı)",
+    "energyRate": 1.80752,
+    "distributionRate": 0.790301
+  },
+  {
+    "id": "mesken-alt-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Mesken (8 kWh/gün altı)",
+    "energyRate": 3.057038,
+    "distributionRate": 0.790301,
+    "peakRate": 3.100892,
+    "nightRate": 1.823592
+  },
+  {
+    "id": "mesken-ust-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Mesken (8 kWh/gün üstü)",
+    "energyRate": 2.07761,
+    "distributionRate": 0.790301
+  },
+  {
+    "id": "mesken-ust-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Mesken (8 kWh/gün üstü)",
+    "energyRate": 3.1178,
+    "distributionRate": 0.790301,
+    "peakRate": 3.147036,
+    "nightRate": 1.830718
+  },
+  {
+    "id": "tarimsal-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Tarımsal Faaliyetler",
+    "energyRate": 3.39375,
+    "distributionRate": 1.212485
+  },
+  {
+    "id": "tarimsal-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Tarımsal Faaliyetler",
+    "energyRate": 4.60986,
+    "distributionRate": 1.212485,
+    "peakRate": 4.60986,
+    "nightRate": 1.830718
+  },
+  {
+    "id": "aydinlatma-tek-terimli",
+    "name": "Tek Terimli",
+    "type": "Aydınlatma",
+    "energyRate": 3.376867,
+    "distributionRate": 1.512482
+  },
+  {
+    "id": "aydinlatma-cok-terimli",
+    "name": "Çok Terimli",
+    "type": "Aydınlatma",
+    "energyRate": 4.88934,
+    "distributionRate": 1.512482,
+    "peakRate": 4.88934,
+    "nightRate": 4.88934
+  }
+]
