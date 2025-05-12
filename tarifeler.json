@@ -1,0 +1,191 @@
+[
+  {
+    "id": "tuketici_tek_zamanli",
+    "name": "Tüketici",
+    "type": "Görevli Tedarik Şirketinden Enerji Alan İletim Sistemi Kullanıcıları",
+    "energyRate": 3.124942,
+    "dayRate": 3.164941,
+    "peakRate": 5.076545,
+    "nightRate": 1.622084
+  },
+  {
+    "id": "dagitim_tuketici_tek_zamanli",
+    "name": "Tüketici",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 3.124942,
+    "dayRate": 3.164941,
+    "peakRate": 5.076545,
+    "nightRate": 1.622084
+  },
+  {
+    "id": "sanayi_orta_gerilim_cift_terimli",
+    "name": "Sanayi (Orta Gerilim, Çift Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.857450,
+    "dayRate": 2.989947,
+    "peakRate": 4.931613,
+    "nightRate": 1.260188
+  },
+  {
+    "id": "kamu_ozel_orta_gerilim_cift_terimli",
+    "name": "Kamu ve Özel Hizmetler Sektörü ile Diğer (Orta Gerilim, Çift Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 3.335750,
+    "dayRate": 3.402891,
+    "peakRate": 4.971473,
+    "nightRate": 1.447487
+  },
+  {
+    "id": "mesken_orta_gerilim_cift_terimli",
+    "name": "Mesken (Orta Gerilim, Çift Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 1.805574,
+    "dayRate": 1.814041,
+    "peakRate": 4.794269,
+    "nightRate": 1.204741
+  },
+  {
+    "id": "tarimsal_orta_gerilim_cift_terimli",
+    "name": "Tarımsal Faaliyetler (Orta Gerilim, Çift Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.077761,
+    "dayRate": 2.107712,
+    "peakRate": 4.943864,
+    "nightRate": 1.212485
+  },
+  {
+    "id": "aydinlatma_orta_gerilim_cift_terimli",
+    "name": "Aydınlatma (Orta Gerilim, Çift Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 3.397375,
+    "dayRate": 0,
+    "peakRate": 0,
+    "nightRate": 0
+  },
+  {
+    "id": "sanayi_orta_gerilim_tek_terimli",
+    "name": "Sanayi (Orta Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.972028,
+    "dayRate": 3.014239,
+    "peakRate": 5.117004,
+    "nightRate": 1.317097
+  },
+  {
+    "id": "kamu_ozel_orta_gerilim_tek_terimli",
+    "name": "Kamu ve Özel Hizmetler Sektörü ile Diğer (Orta Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 3.384550,
+    "dayRate": 3.444072,
+    "peakRate": 5.144047,
+    "nightRate": 1.444072
+  },
+  {
+    "id": "mesken_orta_gerilim_tek_terimli",
+    "name": "Mesken (Orta Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 1.814041,
+    "dayRate": 1.814041,
+    "peakRate": 4.997113,
+    "nightRate": 1.204741
+  },
+  {
+    "id": "tarimsal_orta_gerilim_tek_terimli",
+    "name": "Tarımsal Faaliyetler (Orta Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.305867,
+    "dayRate": 2.327088,
+    "peakRate": 5.248943,
+    "nightRate": 1.512485
+  },
+  {
+    "id": "aydinlatma_orta_gerilim_tek_terimli",
+    "name": "Aydınlatma (Orta Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 4.889943,
+    "dayRate": 0,
+    "peakRate": 0,
+    "nightRate": 0
+  },
+  {
+    "id": "sanayi_alcak_gerilim_tek_terimli",
+    "name": "Sanayi (Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.333724,
+    "dayRate": 2.375148,
+    "peakRate": 4.701820,
+    "nightRate": 1.385324
+  },
+  {
+    "id": "kamu_ozel_alcak_gerilim_tek_terimli_30kwh_alti",
+    "name": "Kamu ve Özel Hizmetler Sektörü ile Diğer (30 kWh/gün ve altı, Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.573982,
+    "dayRate": 2.584741,
+    "peakRate": 4.820142,
+    "nightRate": 1.384741
+  },
+  {
+    "id": "kamu_ozel_alcak_gerilim_tek_terimli_30kwh_ustu",
+    "name": "Kamu ve Özel Hizmetler Sektörü ile Diğer (30 kWh/gün üstü, Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.963982,
+    "dayRate": 2.984741,
+    "peakRate": 4.997113,
+    "nightRate": 1.384741
+  },
+  {
+    "id": "mesken_alcak_gerilim_tek_terimli_8kwh_alti",
+    "name": "Mesken (8 kWh/gün ve altı, Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 1.814041,
+    "dayRate": 1.814041,
+    "peakRate": 4.997113,
+    "nightRate": 1.204741
+  },
+  {
+    "id": "mesken_alcak_gerilim_tek_terimli_8kwh_ustu",
+    "name": "Mesken (8 kWh/gün üstü, Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.305867,
+    "dayRate": 2.327088,
+    "peakRate": 5.248943,
+    "nightRate": 1.512485
+  },
+  {
+    "id": "sehit_ailesi_alcak_gerilim_tek_terimli",
+    "name": "Şehit Aileleri ve Muharip Malul Gaziler (Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 1.814041,
+    "dayRate": 1.814041,
+    "peakRate": 4.997113,
+    "nightRate": 1.204741
+  },
+  {
+    "id": "tarimsal_alcak_gerilim_tek_terimli",
+    "name": "Tarımsal Faaliyetler (Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 2.204741,
+    "dayRate": 2.204741,
+    "peakRate": 4.997113,
+    "nightRate": 1.204741
+  },
+  {
+    "id": "aydinlatma_alcak_gerilim_tek_terimli",
+    "name": "Aydınlatma (Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 3.894440,
+    "dayRate": 0,
+    "peakRate": 0,
+    "nightRate": 0
+  },
+  {
+    "id": "genel_aydinlatma_alcak_gerilim_tek_terimli",
+    "name": "Genel Aydınlatma (Alçak Gerilim, Tek Terimli)",
+    "type": "Dağıtım Sistemi Kullanıcıları",
+    "energyRate": 1.798147,
+    "dayRate": 0,
+    "peakRate": 0,
+    "nightRate": 0
+  }
+]
